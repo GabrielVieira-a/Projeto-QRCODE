@@ -4,7 +4,7 @@ Um gerador de QR Code desenvolvido em **Node.js** durante o curso **The Complete
 
 O programa solicita uma URL ao usuário através do terminal, gera um QR Code correspondente e salva tanto a imagem quanto a URL em arquivos locais.
 
-## 📸 Demonstração
+##  Demonstração
 
 Ao executar o projeto:
 
@@ -15,7 +15,7 @@ node index.js
 O terminal solicitará:
 
 ```text
-? Digite uma URL: https://www.google.com
+? Digite uma URL: 
 ```
 
 Após informar a URL, serão criados automaticamente:
@@ -30,7 +30,7 @@ url.txt
 
 ---
 
-## 🚀 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - Node.js
 - JavaScript (ES Modules)
@@ -40,7 +40,7 @@ url.txt
 
 ---
 
-## 📦 Instalação
+##  Instalação
 
 Clone o repositório:
 
@@ -57,7 +57,8 @@ cd Projeto-QRCODE
 Instale as dependências:
 
 ```bash
-npm install
+npm init
+npm i inquirer qr-image
 ```
 
 ---
@@ -123,5 +124,5 @@ Durante o desenvolvimento deste projeto foram utilizados conceitos importantes d
 
 **Gabriel Vieira**
 
-- GitHub: https://github.com/SEU-USUARIO
-- LinkedIn: https://www.linkedin.com/in/SEU-LINKEDIN
+- GitHub: https://github.com/GabrielVieira-a
+- LinkedIn: https://www.linkedin.com/in/gabrielvieira-dev/
